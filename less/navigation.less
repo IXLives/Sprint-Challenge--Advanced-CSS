@@ -1,1 +1,33 @@
 // Navigation code here
+.navigation {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: @nav-font;
+    background-color: @nav-bg;
+    border: 1px solid @nav-border;
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    ul {
+        display: flex;
+        flex-flow: row nowrap;
+        align-content: space-between;
+
+    }
+
+    ul li {
+        list-style-type: none;
+        margin: 1rem;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: @nav-font;
+        font-size: 1.5rem;
+    }
+}
