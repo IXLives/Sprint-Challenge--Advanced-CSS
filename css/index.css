@@ -1,3 +1,38 @@
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  body .home .space-images img {
+    width: 99%;
+  }
+  .sky {
+    display: none;
+  }
+  .launch {
+    display: none;
+  }
+  .walk {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  body .home .walk .walk-img {
+    width: 99%;
+    order: -1;
+  }
+  body .home .walk .walk-text {
+    width: 99%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  body .home .walk .walk-text .btn button {
+    width: 99%;
+    height: 6rem;
+  }
+  footer {
+    width: 99%;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -161,7 +196,7 @@ p {
   margin: 0 auto;
 }
 .navigation {
-  width: 100%;
+  width: 99%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -186,6 +221,10 @@ p {
   text-decoration: none;
   color: #454A59;
   font-size: 1.5rem;
+}
+.navigation img {
+  border-radius: 0.5rem;
+  width: 99%;
 }
 footer {
   color: #22283B;
