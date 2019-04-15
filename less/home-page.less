@@ -58,6 +58,13 @@
       }
 
       .btn {
+        button {
+          .button(@btn-bg, @btn-font);
+        }
+        button:hover {
+          background-color: @btn-font;
+          color: @btn-bg;
+      }
       }
     }
 

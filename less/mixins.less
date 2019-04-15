@@ -1,1 +1,21 @@
 // Mixins Here
+
+//Nav
+.unlist () {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: space-between;
+}
+
+//Button
+.button (@bg-color, @color) {
+    background-color: @bg-color;
+    color: @color;
+    border: none;
+    padding: 1rem 2rem;
+
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
